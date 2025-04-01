@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const YANDEX_MERCHANT_ID = 'a1ad8071-2729-4c4b-943b-23480738aabe';
 const YANDEX_API_KEY = 'a1ad807127294c4b943b23480738aabe.ilHJrVFqTJsOEQnPvZ3CHxUuZuYMs6Cf'; // секретный ключ API
 const RETURN_URL = 'https://neon.boutique/success';
-const CALLBACK_URL = 'https://895bb091-4cfa-4605-abcb-e83ee05c312c-00-1k1pjr09v5nu3.janeway.replit.dev/';
+const CALLBACK_URL = 'https://neon.boutique/yandexpaycheckout';
 
 app.use(express.json());
 
